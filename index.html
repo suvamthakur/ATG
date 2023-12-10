@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATGWORLD</title>
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- icon -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <!-- Navbar -->
+        <navbar class="nav d-flex justify-content-between align-items-center py-3 px-5">
+            <div class="logo-container">
+                <img class="logo" src="images/logo.png" alt="" srcset="">
+            </div>
+            <div class="search-container py-2">
+                <i class="fa-solid fa-magnifying-glass me-3"></i>
+                <input type="text" class="search" name="" id="" placeholder="Search for your favorite groups in ATG">
+            </div>
+            <div class="dropdown account-dropdown">
+                <button class="account dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Create account. <span>It's free </span>
+                </button>
+                <ul class="dropdown-menu">
+                <li class="sign-up"><div class="dropdown-item" href="#">Sing up</div></li>
+                <li><a class="dropdown-item sign-in" href="#">Sing in</a></li>
+                </ul>
+            </div>
+            <div class="shapes">
+                <i class="fa-solid fa-circle fa-xl ms-2" style="color: #c7c7c7;"></i>
+                <i class="fa-solid fa-shield fa-xl ms-2" style="color: #c7c7c7;"></i>
+                <i class="fa-solid fa-square fa-xl ms-2" style="color: #c7c7c7;"></i>
+            </div>
+        </navbar>
+        <!-- First section -->
+        <section id="intro">
+            <img src="images/laptop.png" class="img-fluid" srcset="">
+            <button class="intro-group-btn">Join Group</button>
+            <div class="intro-text mb-5 ms-5">
+                <h2 class="intro-heading">Computer Engineering</h2>
+                <h4 class="intro-sub-heading">142,765 Computer Engineers follow this</h4>
+            </div>
+        </section>
+        <!-- Last section -->
+        <section id="last" class="py-5">
+            <!-- Header -->
+            <div class="last-section-header d-flex justify-content-between">
+                <ul class="list d-flex align-items-center p-0 m-0">
+                    <li class="list-items fw-bolder item-1">All Posts(32)</li>
+                    <li class="list-items fw-bolder item-1 item-1-mobile">Posts(368)</li>
+                    <li class="list-items">Article</li>
+                    <li class="list-items">Event</li>
+                    <li class="list-items">Education</li>
+                    <li class="list-items">Job</li>
+                </ul>
+                <div class="header-buttons d-flex gap-3">
+                    <div class="dropdown">
+                        <button class="post-btn dropdown-toggle py-2 px-3" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Write a post
+                        </button>
+                        <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Create post</a></li>
+                        </ul>
+                    </div>
+                    <button class="filter-btn post-btn dropdown-toggle py-2 px-3" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Fliter: All
+                    </button>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Article</a></li>
+                    <li><a class="dropdown-item" href="#">Event</a></li>
+                    <li><a class="dropdown-item" href="#">Education</a></li>
+                    <li><a class="dropdown-item" href="#">Job</a></li>
+                    </ul>
+                    <button class="post-btn group-btn d-flex align-items-center py-2 px-3"><img src="images/group-icon-btn.png" class="me-2" srcset=""> Join group</button>
+                </div>
+            </div>
+            <hr>
+            <!-- Footer -->
+            <div class="last-secton-footer d-flex justify-content-between">
+                <!-- Post container -->
+                <div class="left-container">
+                    <div class="card mt-4">
+                        <img src="images/post-1-img.png" class="card-img-top w-30" alt="...">
+                        <div class="card-body">
+                            <img src="images/✍️ Article.png" class="post-type mb-1" alt="" srcset="">
+                            <div class="article d-flex justify-content-between my-3">
+                                <h4 class="card-title fw-semibold">What if famous brands had regular fonts? Meet RegulaBrands!</h4>
+                                <div class="dropdown">
+                                    <img src="images/dots.png" class="card-title-dots" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    </img>
+                                    <ul class="dropdown-menu dropdown-menu-dark">
+                                        <li><a class="dropdown-item active" href="#">Save</a></li>
+                                        <li><a class="dropdown-item" href="#">Report</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <p class="card-text">I’ve worked in UX for the better part of a decade. From now on, I plan to rei…</p>
+                            <div class="card-bottom mt-4 d-flex justify-content-between align-items-center">
+                            <div class="user d-flex align-items-center ">
+                                <img src="images/user-1.png" alt="" srcset="">
+                                <div class="username ms-2">
+                                    <span class="name fw-bold">Sarthak Kamra</span>
+                                    <div class="views views-mobile"><img src="images/eye.png" class="me-1"><span>1.4k views</span></div>
+                                </div>
+                            </div>
+                            <div class="post-details d-flex align-items-center gap-3">
+                                <div class="views"><img src="images/eye.png" class="me-1"><span>1.4k views</span></div>
+                                <div class="share">
+                                    <i class="fa-solid fa-share-nodes fa-lg"></i>
+                                    <span class="share-text">Share</span>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="card mt-4">
+                        <img src="images/post-2-img.png" class="card-img-top w-30" alt="...">
+                        <div class="card-body">
+                            <img src="images/🔬️ Education.png" class="post-type mb-1" alt="" srcset="">
+                            <div class="article d-flex justify-content-between my-3">
+                                <h4 class="card-title fw-semibold">Tax Benefits for Investment under National Pension Scheme launched by Government</h4>
+                                <div class="dropdown">
+                                    <img src="images/dots.png" class="card-title-dots" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    </img>
+                                    <ul class="dropdown-menu dropdown-menu-dark">
+                                        <li><a class="dropdown-item active" href="#">Save</a></li>
+                                        <li><a class="dropdown-item" href="#">Report</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <p class="card-text">I’ve worked in UX for the better part of a decade. From now on, I plan to rei…</p>
+                            <div class="card-bottom mt-4 d-flex justify-content-between align-items-center">
+                            <div class="user d-flex align-items-center ">
+                                <img src="images/user-2.png" alt="" srcset="">
+                                <div class="username ms-2">
+                                    <span class="name fw-bold">Sarah West</span>
+                                    <div class="views views-mobile"><img src="images/eye.png" class="me-1"><span>1.4k views</span></div>
+                                </div>
+                            </div>
+                            <div class="post-details d-flex align-items-center gap-3">
+                                <div class="views"><img src="images/eye.png" class="me-1"><span>1.4k views</span></div>
+                                <div class="share">
+                                    <i class="fa-solid fa-share-nodes fa-lg"></i>
+                                    <span class="share-text">Share</span>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="card mt-4">
+                        <img src="images/post-3-img.png" class="card-img-top w-30" alt="...">
+                        <div class="card-body">
+                            <img src="images/🗓️ Meetup.png" class="post-type mb-2" alt="" srcset="">
+                            <div class="article d-flex justify-content-between my-2">
+                                <h4 class="card-title fw-semibold">Finance & Investment Elite Social Mixer @Lujiazui</h4>
+                                <div class="dropdown">
+                                    <img src="images/dots.png" class="card-title-dots" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    </img>
+                                    <ul class="dropdown-menu dropdown-menu-dark">
+                                        <li><a class="dropdown-item active" href="#">Save</a></li>
+                                        <li><a class="dropdown-item" href="#">Report</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="post-type-details">
+                                <span class="fw-medium"><i class="fa-solid fa-calendar-day me-1"></i> Fri, 12 Oct, 2018</span>
+                                <span class="fw-medium ms-5"><i class="fa-solid fa-location-dot me-1"></i>Ahmedabad, India</span>
+                            </div>
+                            <div class="card-bottom mt-4 d-flex justify-content-between align-items-center">
+                            <div class="user d-flex align-items-center ">
+                                <img src="images/user-3.png" alt="" srcset="">
+                                <div class="username ms-2">
+                                    <span class="name fw-bold">Ronal Jones</span>
+                                    <div class="views views-mobile"><img src="images/eye.png" class="me-1"><span>1.4k views</span></div>
+                                </div>
+                            </div>
+                            <div class="post-details d-flex align-items-center gap-3">
+                                <div class="views"><img src="images/eye.png" class="me-1"><span>1.4k views</span></div>
+                                <div class="share">
+                                    <i class="fa-solid fa-share-nodes fa-lg"></i>
+                                    <span class="share-text">Share</span>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="card mt-4">
+                        <div class="card-body">
+                            <img src="images/💼️ Job.png" class="post-type mb-2" alt="" srcset="">
+                            <div class="article d-flex justify-content-between my-2">
+                                <h4 class="card-title fw-semibold">Software Developer</h4>
+                                <div class="dropdown">
+                                    <img src="images/dots.png" class="card-title-dots" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    </img>
+                                    <ul class="dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item active" href="#">Save</a></li>
+                                    <li><a class="dropdown-item" href="#">Report</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="post-type-details">
+                                <span class="fw-medium"><i class="fa-solid fa-suitcase me-1"></i>Innovaccer Analytics Private Ltd.</span>
+                                <span class="fw-medium ms-5"><i class="fa-solid fa-location-dot me-1"></i> Noida, India</span>
+                            </div>
+                            <div class="card-bottom mt-4 d-flex justify-content-between align-items-center">
+                                <div class="user d-flex align-items-center ">
+                                    <img src="images/user-4.png" alt="" srcset="">
+                                    <div class="username ms-2">
+                                        <span class="name fw-bold">Joseph Gray</span>
+                                        <div class="views views-mobile"><img src="images/eye.png" class="me-1"><span>1.4k views</span></div>
+                                    </div>
+                                </div>
+                                <div class="post-details d-flex align-items-center gap-3">
+                                    <div class="views"><img src="images/eye.png" class="me-1"><span>1.4k views</span></div>
+                                    <div class="share">
+                                        <i class="fa-solid fa-share-nodes fa-lg"></i>
+                                        <span class="share-text">Share</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- location & group container -->
+                <div class="right-container mt-4 me-0">
+                    <div class="location-container d-flex align-items-center border-bottom pb-1">
+                        <i class="fa-solid fa-location-dot me-1"></i>
+                        <input class="location"type="text" name="" id="" placeholder="Enter your location">
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
+                    <p class="location-text text-light-emphasis my-5 d-flex"><i class="fa-solid fa-circle-exclamation mt-1 me-2"></i>Your location will help us serve better and extend a personalised experience.</p>
+                    <div class="group-container position-relative">
+                        <h5 class="recommended"><i class="fa-solid fa-thumbs-up me-1"></i> RECOMMENDED GROUPS</h5>
+                        <div class="groups d-flex justify-content-between align-items-center mt-4">
+                            <div class="group-details d-flex align-items-center">
+                                <img src="images/group-img-1.png" alt="">
+                                <span class="group-name ms-2 fw-medium">Leisure</span>
+                            </div>
+                            <button class="follow-btn">Follow</button>
+                        </div>
+                        <div class="groups d-flex justify-content-between align-items-center mt-4">
+                            <div class="group-details d-flex align-items-center">
+                                <img src="images/group-img-2.png" alt="">
+                                <span class="group-name ms-2 fw-medium">Activism</span>
+                            </div>
+                            <button class="follow-btn">Follow</button>
+                        </div>
+                        <div class="groups d-flex justify-content-between align-items-center mt-4">
+                            <div class="group-details d-flex align-items-center">
+                                <img src="images/group-img-3.png" alt="">
+                                <span class="group-name ms-2 fw-medium">MBA</span>
+                            </div>
+                            <button class="follow-btn">Follow</button>
+                        </div>
+                        <div class="groups d-flex justify-content-between align-items-center mt-4">
+                            <div class="group-details d-flex align-items-center">
+                                <img src="images/group-img-4.png" alt="">
+                                <span class="group-name ms-2 fw-medium">Philosophy</span>
+                            </div>
+                            <button class="follow-btn">Follow</button>
+                        </div>
+                        <a href="#" class="see-more">See More..</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="overlay"></div>
+    </div>
+      
+    <!-- Sign up -->
+    <div class="signup-container">
+        <div class="su-header d-flex align-items-center justify-content-center">
+            <span class="fw-medium ms-auto">Let's learn, share & inspire each other with our passion for computer engineering. Sign up now 🤘🏼</span>
+            <div class="close close-signup d-flex justify-content-center align-items-center ms-auto"><i class="fa-solid fa-xmark fa-lg"></i></div>
+        </div>
+        <div class="su-footer d-flex justify-content-between align-items-center">
+            <div class="su-left">
+                <form action="" class="d-flex flex-column">
+                    <div class="su-heading d-flex">
+                        <h2 class="form-heading mb-4">Create Account</h2>
+                        <div class="close close-mobile-su close-mobile close-signup d-flex justify-content-center align-items-center ms-auto"><i class="fa-solid fa-xmark fa-lg"></i></div>
+                    </div>
+                    <div class="su-name d-flex">
+                        <input class="user-input" type="text" name="" id="" placeholder="First Name">
+                        <input class="user-input" type="text" name="" id="" placeholder="Last Name">
+                    </div>
+                    <input class="user-input" type="email" placeholder="Email">
+                    <input class="user-input" type="password" placeholder="Password">
+                    <input class="user-input" type="password" placeholder="Confirm Password">
+                </form>
+                <button class="btn create-btn btn-primary fw-semibold">Create Account</button>
+                <div class="oauth d-flex flex-column">
+                    <button class="oauth-btn"><img src="images/facebook.png" alt=""class="pe-2"> Sign up with Facebook</button>
+                    <button class="oauth-btn"><img src="images/google.png" alt="" class="pe-2" srcset=""> Sign up with Google</button>
+                </div>
+            </div>
+            <div class="su-right text-center d-flex flex-column align-items-center">
+                <p class="mt-4 mb-0">Already have an account? <span class="signin">Sign in</span></p>
+                <img class="login-img" src="images/login-img.png" alt="" srcset="">
+                <span class="terms px-4 text-light-emphasis">By signing uspan, you agree to our Terms & conditions, Privacy policy</span>
+            </div>
+        </div>
+    </div>
+    <!-- Sign in -->
+    <div class="signin-container">
+        <div class="su-header d-flex align-items-center justify-content-center">
+            <span class="fw-medium ms-auto">Let's learn, share & inspire each other with our passion for computer engineering. Sign in now 🤘🏼</span>
+            <div class="close close-signin d-flex justify-content-center align-items-center ms-auto"><i class="fa-solid fa-xmark fa-lg"></i></div>
+        </div>
+        
+        <div class="su-footer d-flex justify-content-between align-items-center">
+            <div class="su-left">
+                <form action="" class="d-flex flex-column">
+                    <div class="su-heading d-flex">
+                        <h2 class="form-heading mb-4">Sign In</h2>
+                        <div class="close close-mobile-si close-mobile close-signin d-flex justify-content-center align-items-center ms-auto"><i class="fa-solid fa-xmark fa-lg"></i></div>
+                    </div>
+                    <input class="user-input" type="email" placeholder="Email">
+                    <input class="user-input" type="password" placeholder="Password">
+                </form>
+                <button class="btn create-btn btn-primary fw-semibold">Sign In</button>
+                <div class="oauth d-flex flex-column">
+                    <button class="oauth-btn"><img src="images/facebook.png" alt=""class="pe-2"> Sign in with Facebook</button>
+                    <button class="oauth-btn"><img src="images/google.png" alt="" class="pe-2" srcset=""> Sign in with Google</button>
+                </div>
+            </div>
+            <div class="su-right text-center d-flex flex-column align-items-center">
+                <p class="mt-4 mb-0">Don't have an account? <span class="signup">Sign up</span></p>
+                <img class="login-img" src="images/login-img.png" alt="" srcset="">
+                <span class="terms px-4 text-light-emphasis">By signing uspan, you agree to our Terms & conditions, Privacy policy</span>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
